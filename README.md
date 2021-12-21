@@ -1,17 +1,17 @@
 # Angular Supabase Access
 
 * Angular frontend Authentication form with a Supabase PostgreSQL database backend
-* Tutorial code from [Domini Code - in Spanish](https://www.youtube.com/channel/UC3QuZuJr2_EOUak8bWUd74A)
+* Tutorial code from [Domini Code](https://www.youtube.com/channel/UC3QuZuJr2_EOUak8bWUd74A) - in Spanish
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-supabase-acess?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-supabase-acess?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-supabase-acess?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-supabase-acess?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-supabase-access?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-supabase-access?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-supabase-access?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-supabase-access?style=plastic)
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Supabase Access](#zap-angular-supabase-acess)
+* [:zap: Angular Supabase Access](#zap-angular-supabase-access)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -38,6 +38,7 @@
 * [Angular v13](https://angular.io/)
 * [Supabase public v1](https://supabase.io/)
 * [npm @superbase/supabase-js v1](https://www.npmjs.com/package/@supabase/supabase-js) isomorphic (same in form) Javascript client for Supabase
+* [rxjs v7](https://rxjs.dev/) Reactive Extensions Library for Javascript
 * [Bootstrap v5](https://getbootstrap.com/) responsive styling, including ready-made [forms](https://getbootstrap.com/docs/5.0/forms/overview/), navbars etc.
 
 ## :floppy_disk: Setup
