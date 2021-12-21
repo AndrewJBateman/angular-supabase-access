@@ -1,27 +1,91 @@
-# AngularSupabaseAccess
+# Angular Supabase Access
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+* Angular frontend Authentication form with a Supabase PostgreSQL database backend
+* Tutorial code from [Domini Code - in Spanish](https://www.youtube.com/channel/UC3QuZuJr2_EOUak8bWUd74A)
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-## Development server
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-supabase-acess?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-supabase-acess?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-supabase-acess?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-supabase-acess?style=plastic)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## :page_facing_up: Table of contents
 
-## Code scaffolding
+* [:zap: Angular Supabase Access](#zap-angular-supabase-acess)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:flashlight: Testing](#flashlight-testing)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
+  * [:envelope: Contact](#envelope-contact)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :books: General info
 
-## Build
+* Supabase is an open-source alternative to Firebase, but uses PostgreSQL instead of document database. Database is realtime & can use SQL joins. Realtime notifications via Websockets. RESTful API requires no backend code.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## :camera: Screenshots
 
-## Running unit tests
+![Example screenshot](./imgs/loggedin.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## :signal_strength: Technologies
 
-## Running end-to-end tests
+* [Angular v13](https://angular.io/)
+* [Supabase public v1](https://supabase.io/)
+* [npm @superbase/supabase-js v1](https://www.npmjs.com/package/@supabase/supabase-js) isomorphic (same in form) Javascript client for Supabase
+* [Bootstrap v5](https://getbootstrap.com/) responsive styling, including ready-made [forms](https://getbootstrap.com/docs/5.0/forms/overview/), navbars etc.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## :floppy_disk: Setup
 
-## Further help
+* `npm i` to install dependencies then...
+* Create free account with Supabase and setup email auth
+* add Supabase credentials to `environments/environment.ts`
+* `ng serve` for a dev server. Navigate to `http://localhost:4200/` - app will automatically reload if you change any of the source files
+* `ng build --prod` for a build folder
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :flashlight: Testing
+
+* `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## :computer: Code Examples
+
+* function to call signout function from auth service & catch errors (by Domini Code)
+
+```typescript
+  async onLogout(): Promise<void> {
+    try {
+      await this.authSvc.signOut();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+```
+
+## :cool: Features
+
+* Supabase user interface is cool to work with.
+* User session stored in local storage, cleared upon user logout
+
+## :clipboard: Status & To-Do List
+
+* Status: Working
+* To-Do: Add commenting
+
+## :clap: Inspiration
+
+* [Login con Angular 13, Supabase & Bootstrap 5 - Login con Angular 13 - in Spanish](https://www.youtube.com/watch?v=qUhkSk52fV8&t=1754s)
+* [Supabase Docs: Quickstart: Angular](https://supabase.com/docs/guides/with-angular)
+
+## :file_folder: License
+
+* N/A
+
+## :envelope: Contact
+
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
