@@ -28,6 +28,7 @@
 ## :books: General info
 
 * Supabase is an open-source alternative to Firebase, but uses PostgreSQL instead of document database. Database is realtime & can use SQL joins. Realtime notifications via Websockets. RESTful API requires no backend code.
+* I had to have CORS Access Control Allow Origin enabled for this to work
 
 ## :camera: Screenshots
 
@@ -36,6 +37,7 @@
 ## :signal_strength: Technologies
 
 * [Angular v13](https://angular.io/)
+* [@angular/forms](https://angular.io/guide/reactive-forms) reactive form used for user input
 * [Supabase public v1](https://supabase.io/)
 * [npm @superbase/supabase-js v1](https://www.npmjs.com/package/@supabase/supabase-js) isomorphic (same in form) Javascript client for Supabase
 * [rxjs v7](https://rxjs.dev/) Reactive Extensions Library for Javascript
@@ -76,7 +78,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Add commenting
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
