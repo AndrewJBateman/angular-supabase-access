@@ -49,7 +49,7 @@
 * Create free account with Supabase and setup email auth
 * add Supabase credentials to `environments/environment.ts`
 * `ng serve` for a dev server. Navigate to `http://localhost:4200/` - app will automatically reload if you change any of the source files
-* `ng build --prod` for a build folder
+* `npm run build` for a build folder with production configuration
 
 ## :flashlight: Testing
 
