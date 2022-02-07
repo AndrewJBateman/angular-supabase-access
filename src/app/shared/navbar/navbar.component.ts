@@ -13,7 +13,7 @@ export class NavbarComponent {
 
   constructor(private readonly authSvc: AuthService) { }
 
-  // call signout function from auth service
+  // call signout function from auth service & catch errors
   async onLogout(): Promise<void> {
     try {
       await this.authSvc.signOut();

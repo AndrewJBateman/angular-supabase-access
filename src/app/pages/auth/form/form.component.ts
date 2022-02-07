@@ -36,13 +36,11 @@ export class FormComponent implements OnInit {
 
   // credentials = {"email": "a string", "password": "another string"}
   async onSubmit(): Promise<void> {
-    console.log('submit form: ', this.authForm.value);
     const credentials: UserCredentials = this.authForm.value;
     let actionToCall = this.authSvc.signUp(credentials);
 
     if (this.options.id === ACTIONS.signIn) {
       actionToCall = this.authSvc.signIn(credentials);
-      console.log('actionToCall: ', actionToCall);
     }
 
     try {
