@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ApiError, User, UserCredentials } from '@supabase/gotrue-js';
 import { ToastrService } from 'ngx-toastr';
@@ -19,13 +19,13 @@ interface UserReponse extends User, ApiError {}
   styleUrls: ['./form.component.scss']
 })
 export class FormComponent implements OnInit {
-  authForm!: FormGroup;
+  authForm!: UntypedFormGroup;
   signIn = ACTIONS.signIn;
   @Input() options!: OptionsForm;
 
   constructor(
     private readonly authSvc: AuthService,
-    private readonly fb: FormBuilder,
+    private readonly fb: UntypedFormBuilder,
     private readonly router: Router,
     private readonly toastSvc: ToastrService
   ) {}
