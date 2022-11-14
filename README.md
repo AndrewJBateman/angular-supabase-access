@@ -11,7 +11,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Supabase Access](#zap-angular-supabase-access)
+* [Angular Supabase Access](#angular-supabase-access)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -36,10 +36,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
-* [@angular/forms](https://angular.io/guide/reactive-forms) reactive form used for user input
+* [Angular v14](https://angular.io/)
+* [@angular/forms v14](https://angular.io/guide/reactive-forms) reactive form used for user input
 * [Supabase public v1](https://supabase.io/)
-* [npm @superbase/supabase-js v1](https://www.npmjs.com/package/@supabase/supabase-js) isomorphic (same in form) Javascript client for Supabase
+* [npm @superbase/supabase-js v1](https://www.npmjs.com/package/@supabase/supabase-js) isomorphic (same in form) Javascript client for Supabase. Not updated to latest v2 due to breaking changes
 * [rxjs v7](https://rxjs.dev/) Reactive Extensions Library for Javascript
 * [Bootstrap v5](https://getbootstrap.com/) responsive styling, including ready-made [forms](https://getbootstrap.com/docs/5.0/forms/overview/), navbars etc.
 

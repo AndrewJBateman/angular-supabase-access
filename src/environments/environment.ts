@@ -6,6 +6,10 @@ export const environment = {
   production: false,
   config: {
     projectId: ""
+  },
+  supabase: {
+    url: 'YOUR SUPABASE PROJECT URL HERE',
+    publicKey: 'YOUR PROJECT API KEY HERE'
   }
 };
 
